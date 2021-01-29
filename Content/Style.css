@@ -1,0 +1,73 @@
+@keyframes color-change {
+    0% {
+        color: #ff0000;
+    }
+
+    25% {
+        color: #d969d4;
+    }
+    50% {
+        color: #00ff21;
+    }
+
+    100% {
+        color: #ff0000;
+    }
+}
+
+.nastya > article > h3 {
+    animation: color-change 3s infinite;
+    text-align: center;
+}
+
+.nastya > article > ul > li, p {
+    font-family: cursive;
+    color: #e6981c;
+}
+
+.border {
+    border: solid 2px;
+    border-color: #00ff21;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+#one {
+    position: relative;
+    left: 100px;
+    top: 1px;
+    width: 200px;
+    height: 460px;
+    background-color: #5026e2;
+}
+
+#two {
+    position: absolute;
+    top: 1px;
+    left: 450px;
+    width: 200px;
+    height: 460px;
+    background-color: #5026e2;
+}
+
+#three {
+    position: absolute;
+    top: 1px;
+    left: 800px;
+    width: 200px;
+    height: 460px;
+    background-color: #5026e2;
+}
+
+html {
+    width: 1000px;
+}
+
+body {
+    background-color: #7a068b;
+}
+
+a {
+    color: #e6981c;
+}
